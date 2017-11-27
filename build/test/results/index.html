@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Training_No_Grid">
+              <span class="suite-name border-failed">Automation Training No Grid</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Training_No_Grid">
+                    <span>C:\Users\jlopezm-as\Documents\NetBeansProjects\Stage1\build\test\classes\suites\ConfigNoGrid.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Training_No_Grid">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Training_No_Grid">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Training_No_Grid">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Training_No_Grid">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Training_No_Grid">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Training_No_Grid">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 3 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Training_No_Grid" class="hide-methods failed suite-Automation_Training_No_Grid"> (hide)</a> <!-- hide-methods failed suite-Automation_Training_No_Grid -->
+                      <a href="#" panel-name="suite-Automation_Training_No_Grid" class="show-methods failed suite-Automation_Training_No_Grid"> (show)</a> <!-- show-methods failed suite-Automation_Training_No_Grid -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Training_No_Grid">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes">testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatUserIsAbleToLoginWithValidCredentials">testVerifyThatUserIsAbleToLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.RegisterTest" hash-for-method="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField">verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Training_No_Grid -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Training_No_Grid" class="hide-methods passed suite-Automation_Training_No_Grid"> (hide)</a> <!-- hide-methods passed suite-Automation_Training_No_Grid -->
+                      <a href="#" panel-name="suite-Automation_Training_No_Grid" class="show-methods passed suite-Automation_Training_No_Grid"> (show)</a> <!-- show-methods passed suite-Automation_Training_No_Grid -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Training_No_Grid">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink">testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Brian, Salazar)">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Brian, Salazar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Laurens, Chaves)">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Laurens, Chaves)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Fernando, Solis)">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Fernando, Solis)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Rebeca, Najera)">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Rebeca, Najera)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.LoginTest" hash-for-method="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Andres, Lopez)">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Andres, Lopez)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.RegisterTest" hash-for-method="verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton">verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.RegisterTest" hash-for-method="verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken">verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.RegisterTest" hash-for-method="verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields">verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Training_No_Grid" title="tests.RegisterTest" hash-for-method="verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink">verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Training_No_Grid -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Training_No_Grid" class="panel Automation_Training_No_Grid">
+          <div class="suite-Automation_Training_No_Grid-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes">
+                  </a> <!-- testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes -->
+                  <span class="method-name">testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+null, null, null, null
+	at tests.LoginTest.testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes(LoginTest.java:118)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatUserIsAbleToLoginWithValidCredentials">
+                  </a> <!-- testVerifyThatUserIsAbleToLoginWithValidCredentials -->
+                  <span class="method-name">testVerifyThatUserIsAbleToLoginWithValidCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.LoginTest.testVerifyThatUserIsAbleToLoginWithValidCredentials(LoginTest.java:81)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Training_No_Grid-class-failed -->
+          <div class="suite-Automation_Training_No_Grid-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField">
+                  </a> <!-- verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField -->
+                  <span class="method-name">verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.RegisterTest.verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField(RegisterTest.java:110)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Training_No_Grid-class-failed -->
+          <div class="suite-Automation_Training_No_Grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink">
+                  </a> <!-- testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink -->
+                  <span class="method-name">testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Brian, Salazar)">
+                  </a> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Brian, Salazar) -->
+                  <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials</span>
+                  <span class="parameters">(Brian, Salazar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Laurens, Chaves)">
+                  </a> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Laurens, Chaves) -->
+                  <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials</span>
+                  <span class="parameters">(Laurens, Chaves)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Fernando, Solis)">
+                  </a> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Fernando, Solis) -->
+                  <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials</span>
+                  <span class="parameters">(Fernando, Solis)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Rebeca, Najera)">
+                  </a> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Rebeca, Najera) -->
+                  <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials</span>
+                  <span class="parameters">(Rebeca, Najera)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Andres, Lopez)">
+                  </a> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Andres, Lopez) -->
+                  <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials</span>
+                  <span class="parameters">(Andres, Lopez)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Training_No_Grid-class-passed -->
+          <div class="suite-Automation_Training_No_Grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton">
+                  </a> <!-- verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton -->
+                  <span class="method-name">verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken">
+                  </a> <!-- verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken -->
+                  <span class="method-name">verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields">
+                  </a> <!-- verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields -->
+                  <span class="method-name">verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink">
+                  </a> <!-- verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink -->
+                  <span class="method-name">verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Training_No_Grid-class-passed -->
+        </div> <!-- panel Automation_Training_No_Grid -->
+        <div panel-name="test-xml-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jlopezm-as\Documents\NetBeansProjects\Stage1\build\test\classes\suites\ConfigNoGrid.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation Training No Grid&quot;&gt;
+  &lt;parameter name=&quot;mode&quot; value=&quot;Local&quot;/&gt;
+  &lt;parameter name=&quot;appUrl&quot; value=&quot;http://192.168.0.103:86/&quot;/&gt;
+  &lt;test name=&quot;ChromeFunctionalTesting&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WINDOWS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeFunctionalTesting --&gt;
+&lt;/suite&gt; &lt;!-- Automation Training No Grid --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Training No Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeFunctionalTesting (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Training No Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Training No Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Training_No_Grid');
+function tableData_Automation_Training_No_Grid() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken')
+data.setCell(0, 2, 'tests.RegisterTest')
+data.setCell(0, 3, 3334);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField')
+data.setCell(1, 2, 'tests.RegisterTest')
+data.setCell(1, 3, 3317);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials')
+data.setCell(2, 2, 'tests.LoginTest')
+data.setCell(2, 3, 3314);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 2835);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 2762);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton')
+data.setCell(5, 2, 'tests.RegisterTest')
+data.setCell(5, 3, 2531);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials')
+data.setCell(6, 2, 'tests.LoginTest')
+data.setCell(6, 3, 2512);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields')
+data.setCell(7, 2, 'tests.RegisterTest')
+data.setCell(7, 3, 2278);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testVerifyThatUserIsAbleToLoginWithValidCredentials')
+data.setCell(8, 2, 'tests.LoginTest')
+data.setCell(8, 3, 2045);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials')
+data.setCell(9, 2, 'tests.LoginTest')
+data.setCell(9, 3, 2016);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink')
+data.setCell(10, 2, 'tests.LoginTest')
+data.setCell(10, 3, 1951);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes')
+data.setCell(11, 2, 'tests.LoginTest')
+data.setCell(11, 3, 1802);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink')
+data.setCell(12, 2, 'tests.RegisterTest')
+data.setCell(12, 3, 1523);
+window.suiteTableData['Automation_Training_No_Grid']= { tableData: data, tableDiv: 'times-div-Automation_Training_No_Grid'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Automation_Training_No_Grid">
+              </div> <!-- times-div-Automation_Training_No_Grid -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Training No Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.RegisterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">printStartingExecution</span>
+                <br/>
+                <span class="ignored-method-name">saveReport</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Training_No_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">printStartingExecution(http://192.168.0.103:86/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">saveReport(org.testng.TestRunner@2d209079)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpTestClass</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink</span>
+                <span class="method-start">7635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink status=SUCCESS method=Logi...)</span>
+                <span class="method-start">9586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">11302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes</span>
+                <span class="method-start">19696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes status=FA...)</span>
+                <span class="method-start">21499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">23798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVerifyThatUserIsAbleToLoginWithValidCredentials</span>
+                <span class="method-start">31314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatUserIsAbleToLoginWithValidCredentials status=FAILURE method=LoginTest...)</span>
+                <span class="method-start">33359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">35010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Fernando, Solis)</span>
+                <span class="method-start">41380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials status=SUCCESS method=Logi...)</span>
+                <span class="method-start">44215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">45840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Andres, Lopez)</span>
+                <span class="method-start">53393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials status=SUCCESS method=Logi...)</span>
+                <span class="method-start">55409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">56918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Rebeca, Najera)</span>
+                <span class="method-start">62838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials status=SUCCESS method=Logi...)</span>
+                <span class="method-start">65600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">67261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Brian, Salazar)</span>
+                <span class="method-start">73804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials status=SUCCESS method=Logi...)</span>
+                <span class="method-start">76316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">78206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials(Laurens, Chaves)</span>
+                <span class="method-start">89036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials status=SUCCESS method=Logi...)</span>
+                <span class="method-start">92350 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94130 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpTestClass</span>
+                <span class="method-start">94132 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">94132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton</span>
+                <span class="method-start">100868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyThatAllMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickS...)</span>
+                <span class="method-start">103399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">105044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken</span>
+                <span class="method-start">111491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken sta...)</span>
+                <span class="method-start">114825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">116405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields</span>
+                <span class="method-start">123080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmP...)</span>
+                <span class="method-start">125358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">126990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField</span>
+                <span class="method-start">133253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField status=FAILURE...)</span>
+                <span class="method-start">136570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTestCase(Local, chrome, WINDOWS)</span>
+                <span class="method-start">138595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink</span>
+                <span class="method-start">145568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink status=SUCCESS method=R...)</span>
+                <span class="method-start">147091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148668 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">148669 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

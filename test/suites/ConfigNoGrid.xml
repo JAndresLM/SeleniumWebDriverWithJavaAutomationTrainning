@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Training No Grid">
+    
+    <!--  mode could be Remote or Local  -->
+    <parameter name="mode" value="Local"/>
+    <parameter name="appUrl" value="http://192.168.0.103:86/"/>
+    
+    <test name="ChromeFunctionalTesting">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="platform" value="WINDOWS"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegisterTest"/>
+            <!-- <class name="tests.HomeTest"/>
+            <class name="tests.PostAnAdTest"/>
+            <class name="tests.MyAdsAndProfileTest"/>
+            <class name="tests.BrowseAllCategoriesTest"/>-->
+        </classes>
+    </test> <!-- Chrome Functional Testing -->
+    
+    <!-- <test name="FirefoxFunctionalTesting">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="platform" value="WINDOWS"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegisterTest"/>
+             <class name="tests.HomeTest"/>
+            <class name="tests.PostAnAdTest"/>
+            <class name="tests.MyAdsAndProfileTest"/>
+            <class name="tests.BrowseAllCategoriesTest"/>
+        </classes>
+    </test>  Firefox Functional Testing -->
+</suite>

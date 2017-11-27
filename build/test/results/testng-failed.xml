@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Training No Grid]">
+  <parameter name="mode" value="Local"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="appUrl" value="http://192.168.0.103:86/"/>
+  <parameter name="platform" value="WINDOWS"/>
+  <test name="ChromeFunctionalTesting(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="printStartingExecution"/>
+          <include name="setUpTestClass"/>
+          <include name="saveReport"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="testVerifyThatLoginPageTitleIsCorrectWhenUserClickLoginButtonSeveralTimes"/>
+          <include name="testVerifyThatUserIsAbleToLoginWithValidCredentials"/>
+          <include name="setupTestCase"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.RegisterTest">
+        <methods>
+          <include name="setUpTestClass"/>
+          <include name="tearDown"/>
+          <include name="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField"/>
+          <include name="setupTestCase"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.RegisterTest -->
+    </classes>
+  </test> <!-- ChromeFunctionalTesting(failed) -->
+</suite> <!-- Failed suite [Automation Training No Grid] -->
